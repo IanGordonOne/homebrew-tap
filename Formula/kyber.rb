@@ -1,19 +1,17 @@
 class Kyber < Formula
   desc "Source-agnostic life management execution platform"
   homepage "https://github.com/IanGordonOne/kyber"
-  version "0.9.0"
+  version "0.9.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://api.github.com/repos/IanGordonOne/kyber/releases/assets/368524841",
-          headers: ["Authorization: token #{ENV.fetch("HOMEBREW_GITHUB_API_TOKEN")}", "Accept: application/octet-stream"]
-      sha256 "fa304ac2b6bdd84eda1e0317d0a3156256b6d03dad81d5f49a3e591f3c0775e1"
+      url "https://github.com/IanGordonOne/kyber/releases/download/v0.9.1/kyber-0.9.1-darwin-arm64.tar.gz"
+      sha256 "435c751b4824a8b6c28fb55d3f589cd56500d8741d3e80734a9bf4d2f1c896c7"
     end
     on_intel do
-      url "https://api.github.com/repos/IanGordonOne/kyber/releases/assets/368524838",
-          headers: ["Authorization: token #{ENV.fetch("HOMEBREW_GITHUB_API_TOKEN")}", "Accept: application/octet-stream"]
-      sha256 "862239a8830b8dd7731f5bd2700a3198993762c3d0f089d7efc9ba3e3feffe86"
+      url "https://github.com/IanGordonOne/kyber/releases/download/v0.9.1/kyber-0.9.1-darwin-amd64.tar.gz"
+      sha256 "c5e797d3b048e2e67ca575a4897ce6f90e4fa901a96bc03986ebb541e530aa9f"
     end
   end
 
