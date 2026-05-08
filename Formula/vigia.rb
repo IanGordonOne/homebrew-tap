@@ -7,7 +7,7 @@ class Vigia < Formula
   version "0.1.0"
   license "MIT"
 
-  depends_on "bd"
+  depends_on "beads"
   depends_on "fswatch" => :recommended
   depends_on "jq"
   depends_on "python@3.13"
