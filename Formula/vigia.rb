@@ -4,7 +4,7 @@ class Vigia < Formula
   url "https://github.com/IanGordonOne/vigia.git",
       using:  :git,
       branch: "main"
-  version "0.1.1"
+  version "0.1.2"
   license "MIT"
 
   depends_on "beads"
