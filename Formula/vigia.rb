@@ -2,9 +2,10 @@ class Vigia < Formula
   desc "AFK gatekeeper + autonomous-agent runner for bd-tracked repos"
   homepage "https://github.com/IanGordonOne/vigia"
   url "https://github.com/IanGordonOne/vigia.git",
-      using:  :git,
-      branch: "main"
-  version "0.1.4"
+      using:    :git,
+      tag:      "v0.1.5",
+      revision: "936a2124f3d7151e2e84f3bb15341ec2b99e9652"
+  version "0.1.5"
   license "MIT"
 
   depends_on "beads"
