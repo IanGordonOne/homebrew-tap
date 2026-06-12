@@ -3,9 +3,9 @@ class Vigia < Formula
   homepage "https://github.com/IanGordonOne/vigia"
   url "https://github.com/IanGordonOne/vigia.git",
       using:    :git,
-      tag:      "v0.1.6",
-      revision: "a8caa97412e8cbc3734026409ff793658a997d08"
-  version "0.1.6"
+      tag:      "v0.1.7",
+      revision: "ff3ccfc11a9cb4ff6dfb656ebb1660134873b7ed"
+  version "0.1.7"
   license "MIT"
 
   depends_on "beads"
